@@ -1,0 +1,26 @@
+body
+{
+	background-color: black;
+	animation-name: disappear;
+  	animation-delay: 1s;
+  	animation-duration: 3s;
+  	animation-fill-mode: forwards;
+}
+
+p
+{
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 275px;
+	font-style: italic;
+	font-size: 30px;
+	padding-right: 375px;
+	padding-left: 375px;
+}
+
+@keyframes disappear 
+{
+
+  to{background-color: blue;}
+}

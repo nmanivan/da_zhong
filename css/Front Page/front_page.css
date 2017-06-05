@@ -1,0 +1,184 @@
+body
+{
+	margin-top: -30px;
+	margin-left: 1px;
+	background-color: black;
+	animation-name: background_to_white;
+  	animation-delay: 3s;
+  	animation-duration: 3s;
+  	animation-fill-mode: forwards;
+}
+
+.quote_animation
+{
+	color: white;
+	/* try to make position relative */
+	position: absolute; 		
+	text-align: center; top: 275px;
+	font-style: italic; font-size: 30px;
+	padding-right: 375px; padding-left: 375px;
+	animation-name: quote_to_front_page;
+  	animation-delay: 2s;
+  	animation-duration: 3s;
+  	animation-fill-mode: forwards;
+}
+
+.front_page
+{
+	opacity: 0;
+	animation-name: show_front_page;
+	animation-delay: 3s;
+  	animation-duration: 3s;
+  	animation-fill-mode: forwards;
+}
+
+.front_page h1
+{
+	border-bottom: 3px solid gold;
+}
+
+header 
+{
+	height: 200px;
+	background-color: red;  
+	width: 100%;
+}
+
+header h1
+{
+	position: relative;
+	color: gold;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: gold;
+	left: 15px;
+	top: 10px;
+	width: 100%;
+}
+
+header h2	
+{
+	top: 10px; left: 15px;
+	color: black;
+	position: relative;
+
+}
+
+.header_pictures
+{
+}
+
+.header_pictures #lobster img
+{
+	position: relative; top: -125px; left: -350px;
+	display: block;
+	margin: auto;
+	width: 8%; height: 8%;
+
+}
+
+.header_pictures #snacks img
+{
+	position: relative; top: -205px; left: -75px;
+	display: block;
+	margin: auto;
+	width: 6.75%; height: 6.75%;
+
+}
+
+.header_pictures #cabbage img
+{
+	position: relative; top: -287px; left: 215px;
+	display: block;
+	margin: auto;
+	width: 8%; height: 8%;
+
+}
+
+.header_pictures #noodle_soup img
+{
+	position: relative; top: -385px; left: 525px;
+	display: block;
+	margin: auto;
+	width: 8%; height: 8%;
+
+}
+
+
+
+.transition_pictures img
+{
+	position: relative;
+	top: -200px;
+	left: 100px;
+	width: 650px;
+	height: 350px;
+	padding: 1px;
+	border: 2px solid #021a40;
+}
+
+.transition_pictures #second img
+{
+	opacity: 0;
+	top: -500px;
+}
+
+.transition_pictures #third img
+{
+	opacity: 0;
+	top: -1000px;
+}
+
+@keyframes background_to_white
+{
+	to{background-color: white;}
+}
+
+@keyframes quote_to_front_page 
+{
+	to{position: absolute; opacity: 0;}
+}
+
+@keyframes show_front_page
+{
+	to{opacity: 10;}
+}
+
+@keyframes loop_picture
+{
+	to{opacity: ;}
+}
+
+.nav_bar
+{
+	height: 50px;
+	background-color: gray;
+	margin-top: -50px;
+}
+
+.nav_element a
+{
+	position: relative;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_element a:hover
+{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+

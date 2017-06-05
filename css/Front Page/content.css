@@ -1,0 +1,15 @@
+body
+{
+	animation-name: opacity;
+  	animation-delay: 10s;
+  	animation-duration: 10s;
+  	animation-fill-mode: forwards;
+}
+
+
+
+@keyframes opacity 
+{
+
+  to{ background-color: red;}
+}
