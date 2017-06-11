@@ -54,6 +54,7 @@
 			</nav>
 		</div>
 
+
 		<div class="header_pictures">
 			<div id="lobster">
 				<img src="../../pictures/lobster.svg" />
@@ -71,8 +72,6 @@
 				<img src="../../pictures/noodle_soup.png" />
 			</div>
 
-
-
 		</div>	
 
 
@@ -80,33 +79,68 @@
 
 		<div class="transition_pictures">
   			<div id="first">
-  				<img src="../../pictures/da_zhong_store.jpg" />
+  				<img src="../../slide_show/1.jpg" id="loop_picture_img" />
   			</div>
 
-   			<div id="second">
-  				<img src="../../pictures/inside_store.jpg" />
+   			<!-- <div id="second">
+  				<img src="../../slide_show/inside_store.jpg" />
   			</div>
 
   			<div id="third">
-  				<img src= />
-  			</div>
+  				<img src= "" />
+  			</div> -->
 
 		</div>
 
+		<script type="text/javascript">
 
+			function loop_picture()
+			{
+				setInterval(change_image, 7500);
+			}
 
+			function change_image()
+			{ 
+				var image_src = document.getElementById("loop_picture_img").getAttribute("src");
+				var current_image_number = image_src.substring(image_src.lastIndexOf("/") + 1, image_src.lastIndexOf("/") + 2);
 
+				if(current_image_number == 3)
+				{
+					current_image_number = 0;
+				}
 
+				var new_image = "../../slide_show/" + (Number(current_image_number) + 1) 
+				+ ".jpg";
+				document.getElementById("loop_picture_img").setAttribute("src", new_image);
 
+			}
 
+			loop_picture();
 
+		</script>
 
+		<div class="pop_items">
 
+		</div>
 
-
+		<div class="popular_items">
+			<ul>
+			  <li><a href="default.asp">Home</a></li>
+			  <li><a href="news.asp">News</a></li>
+			  <li><a href="contact.asp">Contact</a></li>
+			  <li><a href="about.asp">About</a></li>
+			</ul>
+		</div>
 
 
 	</div>
 	</body>	
 
 </html>
+
+
+
+
+
+
+
