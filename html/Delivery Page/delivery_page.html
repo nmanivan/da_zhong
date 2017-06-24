@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -490,3 +491,179 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<link type="text/css" rel="stylesheet" href="../../css/Delivery Page/delivery_page.css" />
+		<title> Delivery Page </title>
+	</head>
+
+	<body>
+
+	<!-- Front Page -->
+
+		<div class="delivery_page">
+
+		<header>
+			<h1>
+				Da-Zhong (大众)
+			</h1>
+
+			<h2>
+				Oriental Food Market
+			</h2>
+		</header>
+
+		<div class="nav_bar">
+			<nav>
+				<div class="nav_element">
+					<a href="../Front Page/front_page_no_quote.html"> Home </a>
+				</div>
+
+				<div class="nav_element">
+					<a href="../About Page/about_page.html"> About Da-Zhong </a>
+				</div>
+
+				<div class="nav_element">
+					<a href="../Items Page/items_page.html"> Items </a>
+				</div>
+
+				<div class="nav_element">
+					<a href="../Delivery Page/delivery_page.html"> Delivery Page </a>
+				</div>
+
+				<div class="nav_element">
+					<a href="../Contact Page/contact_page.html"> Contact Page </a>
+				</div>
+			</nav>
+		</div>
+
+
+		<div class="header_pictures">
+			<div id="lobster">
+				<img src="../../pictures/lobster.svg" />
+			</div>
+
+			<div id="snacks">
+				<img src="../../pictures/snacks.png" />
+			</div>
+
+			<div id="cabbage">
+				<img src="../../pictures/cabbage.png" />
+			</div>
+
+			<div id="noodle_soup">
+				<img src="../../pictures/noodle_soup.png" />
+			</div>
+
+		</div>	
+		
+
+
+
+		<div class="delivery_form_header">
+			<h2> Delivery Form </h2>
+		</div>
+
+		<?php include('../../php/Contact Page/email.php'); ?>
+		
+		<div class="form">
+
+		<form method = "post" action= "<?php echo $_SERVER["PHP_SELF"];?>">
+			
+			<div class= "name">
+				Name: <input type="text" placeholder = "John" name="name">
+				<span class="asterisk">* </span>
+				<span class="error"> <?php echo $name_error;?></span>
+				<br>
+			</div>
+
+			<div class="email_section">
+				E-mail: <input type="text" placeholder = "ssuzie@gmail.com" name="email">
+				<span class="asterisk">* </span>
+				<span class="error"> <?php echo $email_error;?></span> 
+				<br>	
+			</div>
+
+			<div class= "subject">
+				Subject:
+				<input type="text" placeholder = "Subject" name="subject">
+				<span class="asterisk">* </span>
+				<span class="error"> <?php echo $subject_error;?></span>
+				<br>
+			</div>
+
+				<div class= "description_header">
+					<p> Description: </p> 
+				</div>
+
+				<div class= "description">	
+				 <textarea name="description" placeholder = "How may we help you?" rows = "0" columns = "0"></textarea>
+				 <span class="asterisk">* </span>
+				<span class="error"> <?php echo $description_error;?></span>
+				</div>
+
+				<div class="submit_button">
+					<input type="submit">
+				</div>
+
+				<div class="success">
+					<?php echo $success;?>
+				</div> 
+
+		</form>
+
+		</div>
+
+
+		<footer>
+
+			<div class="phone_number">
+				<h4>
+					Phone Number
+				</h4>
+
+				<p>
+					248-961-5464
+				</p>
+
+			</div>
+
+			<div class="address">
+				<h4>
+					Address 
+				</h4>
+
+				<p>
+					123456 da-zhong road
+				</p>
+			</div>
+
+			<div class="email">
+				<h4>
+					Email 
+				</h4>
+
+				<p>
+					ayu@umich.edu
+				</p>
+			</div>
+
+
+
+		</footer>
+
+	</div>
+	</body>	
+
+</html>
+
+
+
+
+
+
+
+>>>>>>> c3d7391ca5542d5344bf8816d6eeb3ac069d6f55
