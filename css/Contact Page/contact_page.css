@@ -1,0 +1,308 @@
+body
+{
+	margin-top: -30px;
+	margin-left: 1px;
+	margin-right: 0px;
+}
+
+
+
+
+
+header 
+{
+	height: 260px;
+	background-color: red;  
+	width: 100%;
+	margin-right: -10px;
+}
+
+header h1
+{
+	position: absolute;
+	color: gold;
+	font-size: 35px;
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: 3px solid gold;
+	padding-right: 80%;
+	left: 15px;
+	top: -5px;
+}
+
+header h2	
+{
+	top: 75px; left: 15px;
+	color: black;
+	position: absolute;
+
+}
+
+.header_pictures
+{
+	float: left;
+}
+
+.header_pictures #lobster img
+{
+	position: relative; top: -135px; left: -350px;
+	display: block;
+	margin: auto;
+	width: 8%; height: 8%;
+
+}
+
+.header_pictures #snacks img
+{
+	position: relative; top: -215px; left: -75px;
+	display: block;
+	margin: auto;
+	width: 6.75%; height: 6.75%;
+
+}
+
+.header_pictures #cabbage img
+{
+	position: relative; top: -297px; left: 215px;
+	display: block;
+	margin: auto;
+	width: 8%; height: 8%;
+
+}
+
+.header_pictures #noodle_soup img
+{
+	position: relative; top: -397px; left: 525px;
+	display: block;
+	margin: auto;
+	width: 8%; height: 8%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.transition_pictures img
+{
+/*	opacity: 0;
+*/	position: absolute;
+	top: 260px;
+	left: 50px;
+	width: 750px;
+	height: 450px;
+	padding: 1px;
+	border: 2px solid #021a40;
+}
+
+.transition_pictures #second img
+{
+	opacity: 0;
+	top: -500px;
+}
+
+.transition_pictures #third img
+{
+	opacity: 0;
+	top: -1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_bar
+{
+	height: 50px;
+	background-color: gray;
+	margin-top: -50px;
+}
+
+.nav_element a
+{
+	position: relative;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.nav_element a:hover
+{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.email_us_header
+{
+	position: absolute;
+	top: 235px; left: 280px;
+}
+
+.name
+{
+	position: absolute;
+	top: 300px; left: 180px;
+}
+
+.email_section
+{
+	position: absolute;
+	top: 337px; left: 175px;
+}
+
+.subject
+{
+	position: absolute;
+	top: 377px; left: 171px;
+}
+
+.name input, .email_section input, .subject input
+{
+	width: 200px;
+	height: 20px;
+}
+
+.description_header
+{
+	position: absolute;
+	top: 400px; left: 145px;
+}
+
+.description
+{
+	position: absolute;
+	top: 415px; left: 227px;
+}
+
+.description textarea
+{
+	width: 200px;
+	height: 250px;
+}
+
+.submit_button
+{
+	position: absolute;
+	top: 685px; left: 300px;
+}
+
+.success
+{
+	position: absolute;
+	top: 720px; left: 203px;
+	color: #ff9969;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.error
+{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+.contact_us_header
+{
+	position: absolute;
+	top: 235px; left: 700px;
+	border-left: thick solid black;
+	padding-left: 300px;
+	padding-bottom: 435px;
+}
+
+.contact_body table
+{
+ 	position: absolute;
+ 	top: 302px; left: 850px;
+}
+
+.contact_body table td
+{
+ 	padding-right: 50px;
+ 	padding-bottom: 50px;
+}
+
+.contact_body table th
+{
+ 	padding-right: 100px;
+ 	color: blue;
+ 	text-decoration: underline;
+ 	padding-bottom: 50px;
+}
+
+
+
+
+
+footer
+{
+	margin-left: -2px;
+	height: 75px;
+	background-color: black;
+	color: white;
+	font-style: italic;
+	position: relative;
+    top: 517px;
+	border: 2px solid gold;
+}
+
+.phone_number, .address, .email
+{
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+}
+
+.phone_number
+{
+	left: 20%;
+}
+
+
+.address
+{
+	left: 45%;
+}
+
+.email
+{
+	
+	left: 73%;
+}
+
+
+
+
+

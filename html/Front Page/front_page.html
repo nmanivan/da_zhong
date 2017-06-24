@@ -11,7 +11,7 @@
 	<!-- Quotation section of Website -->
 		<div class="quote_animation">
 			<p> 
-				One of the Top Three Asian Food Stores in Michigan. 
+				The Top Asian Food Store in Michigan. 
 				Rated 4.4 out of 5 stars on Google Reviews.
 			</p>
 		</div>
@@ -33,7 +33,7 @@
 		<div class="nav_bar">
 			<nav>
 				<div class="nav_element">
-					<a href="front_page.html"> Home </a>
+					<a href="front_page_no_quote.html"> Home </a>
 				</div>
 
 				<div class="nav_element">
@@ -54,6 +54,7 @@
 			</nav>
 		</div>
 
+
 		<div class="header_pictures">
 			<div id="lobster">
 				<img src="../../pictures/lobster.svg" />
@@ -71,42 +72,178 @@
 				<img src="../../pictures/noodle_soup.png" />
 			</div>
 
-
-
 		</div>	
-
 
 
 
 		<div class="transition_pictures">
   			<div id="first">
-  				<img src="../../pictures/da_zhong_store.jpg" />
+  				<img src="../../slide_show/1.jpg" id="loop_picture_img" />
   			</div>
 
-   			<div id="second">
-  				<img src="../../pictures/inside_store.jpg" />
+   			<!-- <div id="second">
+  				<img src="../../slide_show/inside_store.jpg" />
   			</div>
 
   			<div id="third">
-  				<img src= />
-  			</div>
+  				<img src= "" />
+  			</div> -->
 
 		</div>
 
+		<script type="text/javascript">
+
+			function loop_picture()
+			{
+				setInterval(change_image, 7500);
+			}
+
+			function change_image()
+			{ 
+				var image_src = document.getElementById("loop_picture_img").getAttribute("src");
+				var current_image_number = image_src.substring(image_src.lastIndexOf("/") + 1, image_src.lastIndexOf("/") + 2);
+
+				if(current_image_number == 3)
+				{
+					current_image_number = 0;
+				}
+
+				var new_image = "../../slide_show/" + (Number(current_image_number) + 1) 
+				+ ".jpg";
+				document.getElementById("loop_picture_img").setAttribute("src", new_image);
+
+			}
+
+			loop_picture();
+
+		</script>
+
+		<div class="pop_items">
+			<p> Popular Items </p>
+		</div>
+
+		<div class="popular_items">
+			<ul>
+
+			<div class="bean_sprouts">
+			  <li>1. Bean Sprouts</li>
+				  <div class="drop_down_content">
+				  <p> Bean Sprouts </p>
+			  </div>
+			</div>
+
+			<div class="sunflower_seeds">
+			  <li>2. Sunflower Seeds</li>
+				  <div class="drop_down_content">
+				  <p> Sunflower Seeds </p>
+			  </div>
+			</div>
+
+			<div class="duck">
+			  <li>3. Peking Duck</li>
+				  <div class="drop_down_content">
+				  <p> <img src="../../pictures/duck.jpg" /> Delicious Peking Duck </p>
+			  </div>
+			</div>
+
+			<div class="pork_buns">
+			  <li>4. Pork Buns</li>
+				  <div class="drop_down_content">
+				  <p> Pork Buns </p>
+			  </div>
+			</div>
+
+			<div class="egg_tarts">
+			  <li>5. Egg Tarts</li>
+				  <div class="drop_down_content">
+				  <p> Egg Tarts </p>
+			  </div>
+			</div>
+
+			<div class="bok_choy">
+			  <li>6. Bok-Choy</li>
+				  <div class="drop_down_content">
+				  <p> Bok-Choy </p>
+			  </div>
+			</div>
+
+			<div class="spinach">
+			  <li>7. Spinach</li>
+				  <div class="drop_down_content">
+				  <p> Spinach </p>
+			  </div>
+			</div>
+
+			</ul>
+		</div>
+
+		<!-- <div class="special_deals">
+			<p> Special Deals </p>
+		</div>
+
+		<div class="deals">
+			<ul>
+
+			<div class="deal">
+				<li> deal </li>
+					<div class="drop_down_content">
+					<p> deal one </p>
+				</div>
+			</div>
 
 
 
 
+			</ul>
+		</div>
+ -->
+
+		<footer>
+
+			<div class="phone_number">
+				<h4>
+					Phone Number
+				</h4>
+
+				<p>
+					248-961-5464
+				</p>
+
+			</div>
+
+			<div class="address">
+				<h4>
+					Address 
+				</h4>
+
+				<p>
+					123456 da-zhong road
+				</p>
+			</div>
+
+			<div class="email">
+				<h4>
+					Email 
+				</h4>
+
+				<p>
+					ayu@umich.edu
+				</p>
+			</div>
 
 
 
-
-
-
-
-
+		</footer>
 
 	</div>
 	</body>	
 
+
 </html>
+
+
+
+
+
+
+
