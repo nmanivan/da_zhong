@@ -1,0 +1,35 @@
+#info{
+	margin: 0 auto;
+}
+
+.items{
+	padding-bottom: 10px;
+}
+
+
+table{
+	margin: 0 auto;
+}
+
+#container table tbody tr td:nth-of-type(3) {
+	vertical-align: top;
+}
+
+.left {
+	float:left;
+	text-align:left;
+}
+.center {
+	float:left;
+	text-align:center;
+}
+.right {
+	float:left;
+	text-align:right;
+}
+
+button {
+	margin: 50px auto;
+	display: block;
+
+}
