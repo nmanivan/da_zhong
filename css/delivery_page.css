@@ -1,0 +1,141 @@
+
+.delivery_form_header
+{
+	position: absolute;
+	display: block; margin: auto;
+	top: 235px; left: 625px;
+}
+
+.name_delivery
+{
+	position: absolute;
+	top: 310px; left: 180px;
+}
+
+.email_section_delivery
+{
+	position: absolute;
+	top: 347px; left: 175px;
+}
+
+.phone_num_delivery
+{
+	position: absolute;
+	top: 417px; left: 122px;
+}
+
+.address_delivery
+{
+	position: absolute;
+	top: 447px; left: 166px;
+}
+
+.name_delivery input, .email_section_delivery input, .phone_num_delivery input, .address_delivery input
+{
+	width: 200px;
+	height: 20px;
+}
+
+.description_header_delivery
+{
+	position: absolute;
+	top: 300px; left: 545px;
+}
+
+.description_delivery
+{
+	position: absolute;
+	top: 315px; left: 627px;
+}
+
+.description_delivery textarea
+{
+	width: 450px;
+	height: 250px;
+}
+
+.submit_button_delivery
+{
+	position: absolute;
+	top: 585px; left: 825px;
+}
+
+.success_delivery
+{
+	position: absolute;
+	top: 620px; left: 603px;
+	color: #ff9969;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.error_delivery
+{
+	color: red;
+}
+
+
+
+@media screen and (max-width: 915px)
+{
+
+	.delivery_form_header
+	{
+		left: 240px;
+	}
+
+	.name_delivery
+	{
+		left: 10px;
+	}
+
+	.email_section_delivery
+	{
+		left: 5px;
+	}
+
+	.phone_num_delivery
+	{
+		left: 1px;
+	}
+
+	.address_delivery
+	{
+		left: 1px;
+	}
+
+	.name_delivery input, .email_section_delivery input, .phone_num_delivery input, .address_delivery input
+	{
+		width: 150px;
+		height: 20px;
+	}
+
+	.description_header_delivery
+	{
+		top: 252.5px; left: 445px;
+	}
+
+	.description_delivery
+	{
+		top: 297.5px; left: 357px;
+	}
+
+	.description_delivery textarea
+	{
+		width: 250px;
+		height: 95px;
+	}
+
+	.submit_button_delivery
+	{
+		top: 402.5px; left: 545px;
+	}
+
+	.success_delivery
+	{
+		top: 430px; left: 356px;
+		white-space: nowrap;
+	}
+
+}
+
