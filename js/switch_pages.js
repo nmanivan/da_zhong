@@ -22,22 +22,22 @@ function switch_page(page) {
 function change_footer()
 {
 	$("#front_pg_id").click(function(){
-		document.querySelector("footer").style = "top: 747px";
+		document.querySelector("footer").style = "top: 132.7%";
 	});
 
 	$("#about_us_pg_id").click(function(){
-		document.querySelector("footer").style = "top: 1707px";
+		document.querySelector("footer").style = "top: 100%";
 	});
 
 	$("#items_pg_id").click(function(){
-		document.querySelector("footer").style = "top: 1207px";
+		document.querySelector("footer").style = "top: 100%";
 	});
 
 	$("#delivery_pg_id").click(function(){
-		document.querySelector("footer").style = "top: 747px";
+		document.querySelector("footer").style = "top: 339.7%";
 	});
 
 	$("#contact_pg_id").click(function(){
-		document.querySelector("footer").style = "top: 747px";
+		document.querySelector("footer").style = "top: 339.7%";
 	});
 }
