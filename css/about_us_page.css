@@ -1,5 +1,4 @@
 
-
 .img-circle
 {
 	border-radius: 50%;
@@ -7,21 +6,261 @@
 	width: 250px;
 	height: 250px;
 	margin: 0 100px;
+
 }
 
-#aboutStore
+.aboutStore
 {
-	width: 47%;
+	position: absolute;
+	top: 350px;
+	left: 3%;
+	width: 54%;
 	max-height: 450px;	
-	border: 2px solid #021a40;
-	margin-left: 3%;
 	padding: 1px;
+	border: 2px solid #021a40;
 }
 
+#storeInfo{
+	left: 850px;
+	top: 450px;
+	position: absolute;
+	padding: 50px;
+}
 
+#storePara{
+	display: inline-block;
+}
 
-@media screen and (max-width: 900px)
+#aboutHeader{
+	font-size: 20px;
+	margin: 0 auto;
+	position: absolute;
+	left: 670px;
+	float: left;
+}
+
+#teamHeader{
+	position: absolute;
+	top: 800px;
+	left: 670px;
+	font-size: 2.5em;
+}
+
+#wendyPic{
+	position: absolute;
+	top: 900px;
+	left: 0;
+
+}
+
+#wendyName{
+	position: absolute;
+	top: 1150px;
+	left: 185px;
+}
+
+#wendyInfo{
+	position: absolute;
+	top: 1000px;
+	left: 500px;
+	padding-right: 5	0px;
+
+}
+
+#yuiPic{
+	position: absolute;
+	top: 1200px;
+	left: 0;
+
+}
+
+#yuiName{
+	position: absolute;
+	top: 1450px;
+	left: 200px;
+}
+
+#yuiInfo{
+	position: absolute;
+	top: 1300px;
+	left: 500px;
+	padding-right: 50px;
+}
+
+#amandaPic{
+	position: absolute;
+	top: 1500px;
+	left: 0;
+
+}
+
+#amandaName{
+	position: absolute;
+	top: 1750px;
+	left: 165px;
+}
+
+#amandaInfo{
+	position: absolute;
+	top: 1600px;
+	left: 500px;
+	padding-right: 50px;
+}
+
+#yingPic{
+	position: absolute;
+	top: 1800px;
+	left: 0;
+
+}
+
+#yingName{
+	position: absolute;
+	top: 2050px;
+	left: 195px;
+}
+
+#yingInfo{
+	position: absolute;
+	top: 1900px;
+	left: 500px;
+	padding-right: 50px;
+}
+
+@media screen and (max-width: 1200px)
 {
-	
+	#storeInfo{
+		left: 650px;
+	}
+
+	#aboutHeader{
+		left: 500px;
+	}
+
+	#teamHeader{
+		left: 500px;
+	}
+
+	#wendyPic{
+		left: 0;
+	}
+
+	#wendyName{
+		left: 185px;
+	}
+
+	#wendyInfo{
+		left: 500px;
+
+	}
+
+	#yuiPic{
+		left: 0;
+
+	}
+
+	#yuiName{
+		left: 200px;
+	}
+
+	#yuiInfo{
+		left: 500px;
+
+	}
+
+	#amandaPic{
+		left: 0;
+
+	}
+
+	#amandaName{
+		left: 165px;
+	}
+
+	#amandaInfo{
+		left: 500px;
+
+	}
+
+	#yingPic{
+		left: 0;
+	}
+
+	#yingName{
+		left: 195px;
+	}
+
+	#yingInfo{
+		left: 500px;
+	}
+
 }
 
+@media screen and (max-width: 1000px)
+{
+	#storeInfo{
+		left: 550px;
+	}
+
+	#aboutHeader{
+		left: 400px;
+	}
+
+	#teamHeader{
+		left: 400px;
+	}
+
+	#wendyPic{
+		left: 0;
+	}
+
+	#wendyName{
+		left: 185px;
+	}
+
+	#wendyInfo{
+		left: 500px;
+
+	}
+
+	#yuiPic{
+		left: 0;
+
+	}
+
+	#yuiName{
+		left: 200px;
+	}
+
+	#yuiInfo{
+		left: 500px;
+
+	}
+
+	#amandaPic{
+		left: 0;
+
+	}
+
+	#amandaName{
+		left: 165px;
+	}
+
+	#amandaInfo{
+		left: 500px;
+
+	}
+
+	#yingPic{
+		left: 0;
+	}
+
+	#yingName{
+		left: 195px;
+	}
+
+	#yingInfo{
+		left: 500px;
+	}
+
+}
