@@ -1,0 +1,85 @@
+#items_page_body
+{
+	display: inline-block;
+	position: relative;
+	top: 0px;
+}
+
+#items_page_body h1
+{
+	text-align: center;
+	position: relative;
+	left: -30px;
+}
+
+.img-circle{
+	border-radius: 10%;
+	border: 1px solid black;
+	width: 350px;
+	height: 250px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+	padding: 1px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.img-circle:hover{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%); 
+	opacity: .5;
+	transition: opacity .5s, visibility .2s;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+}
+
+#bakery_body, #condiments_body, #frozen_food_body, #seafood_body, #snack_body, #supplies_body, #fresh_vegetables_body
+{
+	display: none;
+}
+
+.container_box
+{
+	position: relative;
+	display: inline-block;
+}
+
+.text-box
+{
+	position: absolute;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.text-box:before 
+{
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+
+.container_box h4
+{
+   display: inline-block;
+   font-size: 2.5em; /*or whatever you want*/
+   color: black;
+   top: -10px;
+   position: relative;   
+}
+
+.img-responsive
+{
+  display: block;
+  max-width: 100%;
+}
+
+
+
+

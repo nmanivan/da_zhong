@@ -1,17 +1,24 @@
-function switch_page(page) {
-
-  var pages = ["front", "about_us", "items", "delivery", "contact"];
-    $("#" + page + "_pg_id").click(function(){
+function show_selection_page(page)
+{
+	var pages = ["items_front", "snack", "frozen_food", "seafood", "fresh_vegetables", "condiments", "bakery", "supplies"];
+    $("#" + page).click(function(){
 
       for (var i = 0; i < pages.length; ++i) {
         if (pages[i] != page) {
-          $("#" + pages[i] + "_page_body").css("display","none");
+          $("#" + pages[i] + "_body").css("display","none");
         }
 
       }
 
-      if(page === "items")
-      {
+      $("#" + page + "_body").fadeIn();
+
+
+    });
+}
+
+function go_back()
+{
+	$("#back_button").click(function(){
 		$("#items_front_body").css("display","inline-block");	
       	$("#snack_body").css("display","none");
       	$("#frozen_food_body").css("display","none");
@@ -21,12 +28,6 @@ function switch_page(page) {
       	$("#bakery_body").css("display","none");
       	$("#supplies_body").css("display","none");
       	$("#frozen_food_body").css("display","none");
-      }
-      
-      $("#" + page + "_page_body").fadeIn();
-
 
     });
-
-
 }

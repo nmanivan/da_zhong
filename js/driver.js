@@ -11,4 +11,16 @@ $( document ).ready(function() {
 
   change_footer();
 
+  show_selection_page("items_front");
+  show_selection_page("snack");
+  show_selection_page("frozen_food");
+  show_selection_page("seafood");
+  show_selection_page("fresh_vegetables");
+  show_selection_page("condiments");
+  show_selection_page("bakery");
+  show_selection_page("supplies");
+
+  go_back();
+
+
 });

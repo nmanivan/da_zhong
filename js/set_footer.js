@@ -5,7 +5,7 @@ function change_footer()
 	});
 
 	$("#about_us_pg_id").click(function(){
-		document.querySelector("footer").style = "top: 100%";
+		document.querySelector("footer").style = "top: 1000%";
 	});
 
 	$("#items_pg_id").click(function(){
