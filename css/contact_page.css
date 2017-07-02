@@ -1,0 +1,203 @@
+
+.email_us_header
+{
+	position: absolute;
+	top: 235px; left: 280px;
+}
+
+.name_contact
+{
+	position: absolute;
+	top: 300px; left: 180px;
+}
+
+.email_section_contact
+{
+	position: absolute;
+	top: 337px; left: 175px;
+}
+
+.subject_contact
+{
+	position: absolute;
+	top: 377px; left: 171px;
+}
+
+.name_contact input, .email_section_contact input, .subject_contact input
+{
+	width: 200px;
+	height: 20px;
+}
+
+.description_header_contact
+{
+	position: absolute;
+	top: 400px; left: 145px;
+}
+
+.description_contact
+{
+	position: absolute;
+	top: 415px; left: 227px;
+}
+
+.description_contact textarea
+{
+	width: 200px;
+	height: 250px;
+}
+
+.submit_button_contact
+{
+	position: absolute;
+	top: 685px; left: 300px;
+}
+
+.success_contact
+{
+	position: absolute;
+	top: 720px; left: 203px;
+	color: #ff9969;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.error
+{
+	color: red;
+}
+
+@media screen and (max-width: 915px)
+{
+
+	.email_us_header
+	{
+		left: 240px;
+	}
+
+	.name_contact
+	{
+		left: 10px;
+	}
+
+	.email_section_contact
+	{
+		left: 5px;
+	}
+
+	.subject_contact
+	{
+		left: 1px;
+	}
+
+	.name_contact input, .email_section_contact input, .subject_contact input
+	{
+		width: 150px;
+		height: 20px;
+	}
+
+	.description_header_contact
+	{
+		top: 252.5px; left: 445px;
+	}
+
+	.description_contact
+	{
+		top: 297.5px; left: 357px;
+	}
+
+	.description_contact textarea
+	{
+		width: 250px;
+		height: 95px;
+	}
+
+	.submit_button_contact
+	{
+		top: 402.5px; left: 545px;
+	}
+
+	.success_contact
+	{
+		top: 430px; left: 356px;
+		white-space: nowrap;
+	}
+
+}
+
+
+
+
+
+
+
+.contact_us_header
+{
+	position: absolute;
+	top: 235px; left: 700px;
+	border-left: thick solid black;
+	padding-left: 300px;
+	padding-bottom: 435px;
+}
+
+.contact_body table
+{
+ 	position: absolute;
+ 	top: 302px; left: 850px;
+}
+
+.contact_body table td
+{
+ 	padding-right: 50px;
+ 	padding-bottom: 50px;
+}
+
+.contact_body table th
+{
+ 	padding-right: 100px;
+ 	color: blue;
+ 	text-decoration: underline;
+ 	padding-bottom: 50px;
+}
+
+@media screen and (max-width: 915px)
+{
+	.contact_us_header
+	{
+		position: absolute;
+		top: 435px; left: 230px;
+		border-left: none;
+		padding-left: 0px;
+		padding-bottom: 0px;
+	}
+
+	.contact_body table
+	{
+	 	position: absolute;
+	 	top: 502px; left: 75px;
+	}
+
+	.contact_body table td
+	{
+	 	padding-right: 115px;
+	 	padding-bottom: 50px;
+	}
+
+	.contact_body table th
+	{
+	 	color: blue;
+	 	text-decoration: underline;
+	 	padding-bottom: 50px;
+	 	padding-right: 0px;
+	}
+}
+
+@media screen and (max-width: 475px)
+{
+	.contact_body table td
+	{
+	 	padding-right: 25px;
+	}
+}
+
+

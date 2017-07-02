@@ -1,0 +1,186 @@
+
+.transition_pictures img
+{
+	position: absolute;
+	top: 260px;
+	left: 3%;
+	width: 54%;
+	height: 80%;
+	padding: 1px;
+	border: 2px solid #021a40;
+}
+
+.transition_pictures #second img
+{
+	opacity: 0;
+	top: -500px;
+}
+
+.transition_pictures #third img
+{
+	opacity: 0;
+	top: -1000px;
+}
+
+
+
+
+
+
+
+
+
+.pop_items
+{
+	position: relative; top: 77px; left: 63%;
+	display: block;
+	background-color: #006400;
+	width: 21.5%; height: 337px;
+	border: 3px solid gold;
+
+}
+
+.pop_items p 
+{
+	position: absolute;
+	left: 35%;
+	text-align: center;
+	font-style: italic; 
+	font-weight: bold;
+	color: gold;
+}
+
+.popular_items ul 
+{
+	position: absolute; 
+	top: 352px; left: 63.5%;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    width: 21%;
+    background-color: #f1f1f1;
+}
+
+.popular_items li 
+{
+	border-bottom: 1px solid #555;
+    text-align: center;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;    
+}
+
+/* Change the link color on hover */
+.popular_items li:hover 
+{
+    background-color: #555;
+    color: white;
+}
+
+.popular_items .bean_sprouts:hover .drop_down_content
+{
+	display: block;
+	left: 102%; top: -20px;
+}
+
+.popular_items .sunflower_seeds:hover .drop_down_content
+{
+	display: block;
+	left: 102%; top: 10px;
+}
+
+.popular_items .duck:hover .drop_down_content
+{
+	display: block;
+	left: 102%; top: 20px;
+}
+
+.popular_items .pork_buns:hover .drop_down_content
+{
+	display: block;
+	left: 102%; top: 83px;
+}
+
+.popular_items .egg_tarts:hover .drop_down_content
+{
+	display: block;
+	left: 102%; top: 113px;
+}
+
+.popular_items .bok_choy:hover .drop_down_content
+{
+	display: block;
+	left: 102%; top: 153px;
+}
+
+.popular_items .spinach:hover .drop_down_content
+{
+	display: block;
+	left: 102%; top: 193px;
+}
+
+@media screen and (max-width: 1050px)
+{
+	.pop_items p 
+	{
+		left: 23%;
+	}
+}
+
+@media screen and (max-width: 725px)
+{
+
+	.transition_pictures img
+	{
+		left: 25px;
+		width: 350px;		
+	}
+
+
+	.pop_items 
+	{
+		left: 428px;
+		width: 147px;
+	}
+
+	.pop_items p 
+	{
+		left: 2px;
+		width: 147px;
+	}
+
+
+	.popular_items ul 
+	{
+		
+	 	left: 432.5px;
+	    width: 143.5px;
+	}
+
+}
+
+
+
+
+
+
+.drop_down_content img 
+{
+	width: 100px; height: 100px;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+
+.drop_down_content
+{
+    display: none;
+    position: absolute; 
+    background-color: yellow;
+    min-width: 175px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+

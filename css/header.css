@@ -1,0 +1,175 @@
+
+body
+{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+
+header 
+{
+	height: 220px;
+	background-color: red;  
+	width: 100%;
+}
+
+header h1
+{
+	position: absolute;
+	color: gold;
+	font-size: 35px;
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: 3px solid gold;
+	padding-right: 79%;
+	left: 15px;
+	top: -5px;
+	min-width: 267px;
+}
+
+header h2	
+{
+	top: 90px; left: 17px;
+	font-size: 25px;
+	color: black;
+	position: absolute;
+
+}
+
+
+
+
+
+.header_pictures
+{
+	float: left;
+}
+
+.header_pictures #lobster img
+{
+	position: absolute; top: 100px; left: 27%;
+	display: block;
+	margin: auto;
+	width: 100px; height: 50px;
+}
+
+.header_pictures #snacks img
+{
+	position: absolute; top: 85px; left: 45%;
+	display: block;
+	margin: auto;
+	width: 100px; height: 75px;
+
+}
+
+.header_pictures #cabbage img
+{
+	position: absolute; top: 100px; left: 64%;
+	display: block;
+	margin: auto;
+	width: 100px; height: 50px;
+
+}
+
+.header_pictures #noodle_soup img
+{
+	position: absolute; top: 68px; left: 84%;
+	display: block;
+	margin: auto;
+	width: 100px; height: 100px;
+
+}
+
+
+
+@media screen and (max-width: 975px)
+{
+		
+	.header_pictures #lobster img
+	{
+		position: absolute; top: 100px; left: 275px;
+		display: block;
+		margin: auto;
+		width: 100px; height: 50px;
+	}
+
+	.header_pictures #snacks img
+	{
+		position: absolute; top: 85px; left: 375px;
+		display: block;
+		margin: auto;
+		width: 100px; height: 75px;
+
+	}
+
+	.header_pictures #cabbage img
+	{
+		position: absolute; top: 100px; left: 475px;
+		display: block;
+		margin: auto;
+		width: 100px; height: 50px;
+
+	}
+
+	.header_pictures #noodle_soup img
+	{
+		position: absolute; top: 68px; left: 575px;
+		display: block;
+		margin: auto;
+		width: 100px; height: 100px;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_bar
+{
+	height: 50px;
+	background-color: gray;
+	margin-top: -50px;
+}
+
+.nav_element p
+{
+	position: relative;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 3%;
+    text-decoration: none;
+    top: -15px; 
+}
+
+.nav_element p:hover
+{
+	color: black;
+}
+
+
+@media screen and (max-width: 675px)
+{
+	.nav_element p
+	{
+		padding: 14px 6px;
+	}
+	
+}
+
+
+
