@@ -9,43 +9,43 @@
 .name_delivery
 {
 	position: absolute;
-	top: 310px; left: 180px;
+	top: 335px; left: 140px;
 }
 
 .email_section_delivery
 {
 	position: absolute;
-	top: 347px; left: 175px;
+	top: 387px; left: 135px;
 }
 
 .phone_num_delivery
 {
 	position: absolute;
-	top: 417px; left: 122px;
+	top: 442px; left: 82px;
 }
 
 .address_delivery
 {
 	position: absolute;
-	top: 447px; left: 166px;
+	top: 492px; left: 126px;
 }
 
 .name_delivery input, .email_section_delivery input, .phone_num_delivery input, .address_delivery input
 {
-	width: 200px;
-	height: 20px;
+	width: 300px;
+	height: 25px;
 }
 
 .description_header_delivery
 {
 	position: absolute;
-	top: 300px; left: 545px;
+	top: 280px; left: 955px;
 }
 
 .description_delivery
 {
 	position: absolute;
-	top: 315px; left: 627px;
+	top: 325px; left: 787px;
 }
 
 .description_delivery textarea
@@ -57,13 +57,13 @@
 .submit_button_delivery
 {
 	position: absolute;
-	top: 585px; left: 825px;
+	top: 595px; left: 989.5px;
 }
 
 .success_delivery
 {
 	position: absolute;
-	top: 620px; left: 603px;
+	top: 640px; left: 878px;
 	color: #ff9969;
 	font-weight: bold;
 	font-size: 14px;
@@ -81,27 +81,27 @@
 
 	.delivery_form_header
 	{
-		left: 240px;
+		left: 238.5px; top: 255px;
 	}
 
 	.name_delivery
 	{
-		left: 10px;
+		left: 190px;
 	}
 
 	.email_section_delivery
 	{
-		left: 5px;
+		left: 185px;
 	}
 
 	.phone_num_delivery
 	{
-		left: 1px;
+		left: 132.75px;
 	}
 
 	.address_delivery
 	{
-		left: 1px;
+		left: 177px;
 	}
 
 	.name_delivery input, .email_section_delivery input, .phone_num_delivery input, .address_delivery input
@@ -112,12 +112,12 @@
 
 	.description_header_delivery
 	{
-		top: 252.5px; left: 445px;
+		top: 522.5px; left: 254px;
 	}
 
 	.description_delivery
 	{
-		top: 297.5px; left: 357px;
+		top: 567.5px; left: 183px;
 	}
 
 	.description_delivery textarea
@@ -128,12 +128,12 @@
 
 	.submit_button_delivery
 	{
-		top: 402.5px; left: 545px;
+		top: 672.5px; left: 283px;
 	}
 
 	.success_delivery
 	{
-		top: 430px; left: 356px;
+		top: 710px; left: 182px;
 		white-space: nowrap;
 	}
 

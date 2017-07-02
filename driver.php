@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- CSS Sheets -->
-	<link rel="stylesheet" href="css/header_and_footer.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/front_page_no_quote.css">
 	<link rel="stylesheet" href="css/about_us_page.css">
 	<link rel="stylesheet" href="css/items_page.css">
@@ -20,6 +21,7 @@
 	<script src="js/set_front_page.js"> </script>
 	<script src="js/loop_picture.js"> </script>
 	<script src="js/switch_pages.js"> </script>
+	<script src="js/set_footer.js"> </script>
 	<script src="js/click_submit_refresh.js"> </script>
 	<script src="js/driver.js"> </script>
 
@@ -28,7 +30,11 @@
 <body>
 
 	<!-- Header -->
-	
+
+
+<div id="container">
+
+
 	<header>
 		<h1>
 			Da-Zhong (大众)
@@ -295,7 +301,7 @@
 				</div>
 
 					<div class= "description_header_delivery">
-						<p> Description: </p> 
+						<p> Place Your Order: </p> 
 					</div>
 
 					<div class= "description_delivery">	
@@ -316,6 +322,7 @@
 					{ 
 						?> 
 					<script> delivery_submit_refresh(); </script>
+					<script> set_contact_delivery_footer(); </script>
 
 					<?php 
 						} 
@@ -394,6 +401,7 @@
 					{ 
 						?> 
 					<script> contact_submit_refresh(); </script>
+					<script> set_contact_delivery_footer(); </script>
 
 					<?php 
 						} 
@@ -443,7 +451,6 @@
 		<!-- Footer -->
 
 		
-
 			<footer>
 
 				<div class="phone_number">
@@ -479,9 +486,9 @@
 
 			</footer>
 
-	
+</div>
 
-	</body>
+</body>
 	
 </html>
 
