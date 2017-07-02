@@ -328,7 +328,7 @@
 			</div>
 
 			<!-- Back button -->
-			<div id="back_button">
+			<div id="bakery_back_button">
 				<img src="images/reply.png">
 			</div>
 			
@@ -415,7 +415,7 @@
 			</div>
 
 			<!-- Back button -->
-			<div id="back_button">
+			<div id="condiments_back_button">
 				<img src="images/reply.png">
 			</div>
 			
@@ -500,7 +500,7 @@
 			</div>
 
 			<!-- Back button -->
-			<div id="back_button">
+			<div id="frozen_food_back_button">
 				<img src="images/reply.png">
 			</div>
 			
@@ -586,7 +586,7 @@
 			</div>
 
 			<!-- Back button -->
-			<div id="back_button">
+			<div id="seafood_back_button">
 				<img src="images/reply.png">
 			</div>
 			
@@ -672,7 +672,7 @@
 			</div>
 
 			<!-- Back button -->
-			<div id="back_button">
+			<div id="snack_back_button">
 				<img src="images/reply.png">
 			</div>
 			
@@ -758,8 +758,8 @@
 			</div>
 
 			<!-- Back button -->
-			<div id="back_button">
-				<img src="images/reply.png" id = back_button_img>
+			<div id="supplies_back_button">
+				<img src="images/reply.png">
 			</div>
 			
 			<div id="itemTable">
@@ -846,7 +846,7 @@
 			</div>
 
 			<!-- Back button -->
-			<div id="back_button">
+			<div id="fresh_vegetables_back_button">
 				<img src="images/reply.png">
 			</div>
 			

@@ -5,7 +5,8 @@
 	left: -325px;
 }
 
-#back_button
+#bakery_back_button, #condiments_back_button, #frozen_food_back_button, #seafood_back_button, 
+#snack_back_button, #supplies_back_button, #fresh_vegetables_back_button
 {
 	position: absolute;
 	top: 25px; left: -720px;

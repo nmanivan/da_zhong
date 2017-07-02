@@ -20,7 +20,14 @@ $( document ).ready(function() {
   show_selection_page("bakery");
   show_selection_page("supplies");
 
-  go_back();
+  go_back("items_front");
+  go_back("snack");
+  go_back("frozen_food");
+  go_back("seafood");
+  go_back("fresh_vegetables");
+  go_back("condiments");
+  go_back("bakery");
+  go_back("supplies");
 
 
 });

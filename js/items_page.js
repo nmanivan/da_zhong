@@ -16,18 +16,10 @@ function show_selection_page(page)
     });
 }
 
-function go_back()
+function go_back(page)
 {
-	$("#back_button").click(function(){
+	$("#"+ page + "_back_button").click(function(){
 		$("#items_front_body").css("display","inline-block");	
-      	$("#snack_body").css("display","none");
-      	$("#frozen_food_body").css("display","none");
-      	$("#seafood_body").css("display","none");
-      	$("#fresh_vegetables_body").css("display","none");
-      	$("#condiments_body").css("display","none");
-      	$("#bakery_body").css("display","none");
-      	$("#supplies_body").css("display","none");
-      	$("#frozen_food_body").css("display","none");
-
+      	$("#" + page + "_body").css("display","none");
     });
 }
