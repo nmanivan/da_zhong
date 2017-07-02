@@ -203,42 +203,64 @@
 
 		<!-- About Da-Zhong -->
 
-	<div id="about_us_page_body">
+<div id="about_us_page_body">
 
-		<div class="row">
-			<div class="col-6">
-				<h1>About Da Zhong</h1>
-				<p><img src="images/da_zhong_store.jpg" alt="" id="aboutStore" align="left"></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam expedita blanditiis incidunt similique reiciendis, atque voluptatibus soluta sapiente vero deleniti in excepturi labore ea rem voluptatem adipisci, qui fuga!</p>
-			</div>
+		<div id="aboutHeader">
+			<h1>About Da Zhong</h1>
 		</div>
 
-		<div class="row">
-			<div class="col-6">
-				<h2>Our Team</h2>
-			</div>
+		<div>
+			<img src="images/da_zhong_store.jpg" alt=""  class="aboutStore">
 		</div>
-		<div class="row">
-			<div class="col-6">
-				<p><img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle"></p>
-				<h3>Wendy Shi</h3>
-				<p>Wendy's main duty are restocking the store's supplies. If you are looking to sell your products at the store, please contact
-					Wendy.</p>
-					<p><img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle"></p>
-					<h3>Yui Yu</h3>
-					<p>Yui delivers to most of the resturaunt's in Metro Detroit. If you are looking to see if an item is in stock or wish to know when
-						your delivery is coming, please contact Yui.</p>
-						<p><img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle"></p>
-						<h3>Amanda Wong</h3>
-						<p>Amanda's main role is to take resturaunt orders and to resolve any issues with orders. If you have an issue or wish to order from Da Zhong,
-							please contact Amanda.</p>
-							<p><img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle"></p>
-							<h3>Ying Yu</h3>
-							<p>Ying also helps with the delivery of resturaunt supplies. He also is proficient in repairing resturaunt appliances. If you need help with
-								a broken appliance, please contact Ying.</p>
-			</div>
+
+		<p id="storeInfo">Da Zhong Food Oriental is a grocery store with a variety of Asian goods from all cultures. Although a majority of our
+			goods are Chinese, we also have plenty of Japanese, Korean, Vietnamese, and other products. Da Zhong was opened in late 2003 and has
+			been opened for the last 14 years. In addition to food products, we also provide resturaunt supplies to local resturaunts in the Metro
+			Detroit area. If you have any questions or concerns, please fill out the information on the contact page or call us at 248-426-9798. 
+		</p>
+
+		<h2 id="teamHeader">Meet the Owners</h2>
+
+		
+
+		<div>
+			<img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle" id="wendyPic"></p>
 		</div>
-	</div>
+
+		<h3 id="wendyName">Wendy Shi</h3>
+
+		<p id="wendyInfo">Wendy's main duty are restocking the store's supplies. If you are looking to sell your products at the store, please contact
+			Wendy.
+		</p>
+
+		<div>
+			<img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle" id="yuiPic"></p>
+		</div>
+
+		<h3 id="yuiName">Yui Yu</h3>
+		<p id="yuiInfo">Yui delivers to most of the resturaunt's in Metro Detroit. If you are looking to see if an item is in stock or wish to know when
+			your delivery is coming, please contact Yui.
+		</p>
+
+		<div>
+			<img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle" id="amandaPic">
+
+		</div>
+
+		<h3 id="amandaName">Amanda Wong</h3>
+		<p id="amandaInfo">Amanda's main role is to take resturaunt orders and to resolve any issues with orders. If you have an issue or wish to order from Da Zhong, please contact Amanda.
+		</p>
+		
+		<div>
+			<p><img src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-medium-landing-hero.ashx" alt="" class="img-circle" id="yingPic">
+			</p>
+		</div>
+
+		<h3 id="yingName">Ying Yu</h3>
+		<p id="yingInfo">Ying also helps with the delivery of resturaunt supplies. He also is proficient in repairing resturaunt appliances. If you need help with
+			a broken appliance, please contact Ying.
+		</p>
+		</div>
 
 
 
